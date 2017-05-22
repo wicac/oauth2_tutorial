@@ -1,5 +1,5 @@
-docker build -t wicac/coffee-app:v1 .
+docker build -t wicac/beer-app:v1 .
+docker run -it wicac/beer-app:v1 /bin/sh
 
-docker run -it wicac/coffee-app:v1 
-
-docker run -d -p 3000:3000 --name coffee -t wicac/coffee-app:v1
+docker run --name oauth2-mongo -p 27017:27017  -d mongo:latest
+docker run -d -p 3000:3000 --name beer-app -t wicac/beer-app:v1

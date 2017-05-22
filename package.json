@@ -1,7 +1,5 @@
 {
-  "name": "coffee-app",
-  "version": "1.0.0",
-  "description": "",
+  "name": "beerlocker",
   "main": "server.js",
   "author": "efendy"
 }
