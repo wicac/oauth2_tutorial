@@ -1,5 +1,11 @@
 {
   "name": "beerlocker",
+  "description": "nodejs oauth2 tutorial",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/wicac/oauth2_tutorial.git"
+  },
+  "license": "ISC",
   "main": "server.js",
   "author": "efendy"
 }
